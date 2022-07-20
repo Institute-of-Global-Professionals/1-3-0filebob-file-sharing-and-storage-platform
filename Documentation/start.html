@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Filebob — File sharing and storage platform</title>
+      <!-- Meta -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="shortcut icon" href="assets/images/favicon.ico">
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+      <!-- FontAwesome JS -->
+      <script defer src="assets/fontawesome/js/all.js"></script>
+      <!-- Global CSS -->
+      <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+      <!-- Plugins CSS -->    
+      <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+      <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">
+      <!-- Theme CSS -->
+      <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+   </head>
+   <body class="body-green">
+      <div class="page-wrapper">
+         <!-- ******Header****** -->
+         <header id="header" class="header">
+            <div class="container">
+               <div class="branding">
+                  <h1 class="logo">
+                     <a href="index.html">
+                     <span aria-hidden="true" class="icon_documents_alt icon"></span>
+                     <span class="text-highlight">Filebob</span><span class="text-bold">Docs</span>
+                     </a>
+                  </h1>
+               </div>
+               <!--//branding-->
+               <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item active">Quick Start</li>
+               </ol>
+            </div>
+            <!--//container-->
+         </header>
+         <!--//header-->
+         <div class="doc-wrapper">
+            <div class="container">
+               <div id="doc-header" class="doc-header text-center">
+                  <h1 class="doc-title"><i class="icon fa fa-paper-plane"></i> Quick Start</h1>
+               </div>
+               <!--//doc-header-->
+               <div class="doc-body row">
+                  <div class="doc-content col-md-9 col-12 order-1">
+                     <div class="content-inner">
+                        <section id="requirements-section" class="doc-section">
+                           <h2 class="section-title">Requirements</h2>
+                           <div class="section-block">
+                              <h5>Server :</h5>
+                              <ul>
+                                 <li>PHP 7.3</li>
+                                 <li>If you plan to upload large files please increase you server <code>MAX_FILE_SIZE</code> and <code>MEMORY_LIMIT</code></li>
+                              </ul>
+                              <h5>Storage :</h5>
+                              <li>Wasabi free trial is working on upload but the download is not, you need to upgrade because the files do not have public access</li>
+                           </div>
+                        </section>
+                        <!--//doc-section-->
+                        <section id="preparations-section" class="doc-section">
+                           <h2 class="section-title">Preparations</h2>
+                           <div class="section-block">
+                              <div class="section-block">
+                                 <h3 class="block-title"> 1 - Login to your cpanel and click MYSQL DATABASE</h3>
+                                 <img src="assets/images/install/step1.png" class="mt-2 img-fluid">
+                              </div>
+                              <div class="section-block">
+                                 <h3 class="block-title"> 2 - Enter database name</h3>
+                                 <img src="assets/images/install/step2.png" class="mt-2 img-fluid">
+                              </div>
+                              <div class="section-block">
+                                 <h3 class="block-title"> 3 - Create new database user</h3>
+                                 <img src="assets/images/install/step3.png" class="mt-2 img-fluid">
+                              </div>
+                              <div class="section-block">
+                                 <h3 class="block-title"> 4 - Choose database name and database user then click add</h3>
+                                 <img src="assets/images/install/step4.png" class="mt-2 img-fluid">
+                              </div>
+                              <div class="section-block">
+                                 <h3 class="block-title"> 5 - choose All privileges then click make changes</h3>
+                                 <img src="assets/images/install/step5.png" class="mt-2 img-fluid">
+                              </div>
+                              <div class="section-block">
+                                 <h3 class="block-title"> 6 - Now go to your hosting file manager</h3>
+                                 <img src="assets/images/install/step6.png" class="mt-2 img-fluid">
+                              </div>
+                              <div class="section-block">
+                                 <h3 class="block-title"> 7 - Choose your directory</h3>
+                                 <img src="assets/images/install/step7.png" class="mt-2 img-fluid">
+                              </div>
+                              <div class="section-block">
+                                 <h3 class="block-title"> 8 - Click upload</h3>
+                                 <img src="assets/images/install/step8.png" class="mt-2 img-fluid">
+                              </div>
+                              <div class="section-block">
+                                 <h3 class="block-title"> 9 - Click select then select the <code>Filebob.zip</code></h3>
+                                 <img src="assets/images/install/step9.png" class="mt-2 img-fluid">
+                              </div>
+                              <div class="section-block">
+                                 <h3 class="block-title"> 10 - Choose <code>Filebob.zip</code> then click extract</h3>
+                                 <img src="assets/images/install/step10.png" class="mt-2 img-fluid">
+                              </div>
+                              <div class="section-block">
+                                 <h3 class="block-title"> 11 - Click extract files</h3>
+                                 <img src="assets/images/install/step11.png" class="mt-2 img-fluid">
+                              </div>
+                              <div class="alert alert-info mt-3">
+                                 <strong>Now your database and files is ready open your website URL and follow installation steps.</strong>
+                              </div>
+                           </div>
+                        </section>
+                        <!--//doc-section-->
+                        <section id="installation-section" class="doc-section">
+                           <h2 class="section-title">Installation</h2>
+                           <div id="step1"  class="section-block">
+                              <h3 class="block-title">Step 1 ) - Enter Your database information like this.</h3>
+                              <img src="assets/images/steps/step1.png" class="mt-2 img-fluid">
+                           </div>
+                           <!--//section-block-->
+                           <div id="step2"  class="section-block">
+                              <h3 class="block-title">Step 2 ) - Click Get Started.</h3>
+                              <img src="assets/images/steps/step2.png" class="mt-2 img-fluid">
+                           </div>
+                           <!--//section-block-->
+                           <div id="step3"  class="section-block">
+                              <h3 class="block-title">Step 3 ) - Enter your webiste information <code>Please Make Sure That URL is Correct</code>.</h3>
+                              <img src="assets/images/steps/step3.png" class="mt-2 img-fluid">
+                           </div>
+                           <!--//section-block-->
+                           <div id="step4"  class="section-block">
+                              <h3 class="block-title">Step 4 ) - Enter admin information.</h3>
+                              <img src="assets/images/steps/step4.png" class="mt-2 img-fluid">
+                              <h1 class="mt-3">Important! :</h1>
+                              <div class="alert alert-danger mt-3">
+                                 If you get <strong>Error 500</strong> when you enter the admin information, its server problem make sure the id in users is auto-increment if not make it auto-increment like bellow picture :
+                                 <img src="assets/images/steps/auto.png" class="mt-2 img-fluid">
+                                 <div class="mt-2">
+                                    <h3>Do the same in this tables :</h3>
+                                    <li>uploads</li>
+                                    <li>messages</li>
+                                    <li>pages</li>
+                                    <li>failed_jobs</li>
+                                 </div>
+                              </div>
+                           </div>
+                           <!--//section-block-->
+                           <div id="step5"  class="section-block">
+                              <h3 class="block-title">Step 5 ) - Congratulations your website is installed successfully.</h3>
+                              <p>You will see page like this if all is done, this is your admin panel and you can manage your webiste.</p>
+                              <img src="assets/images/steps/step5.png" class="mt-2 img-fluid">
+                           </div>
+                           <!--//section-block-->
+                           <div class="callout-block callout-info">
+                              <div class="icon-holder">
+                                 <svg class="svg-inline--fa fa-bullhorn fa-w-18" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bullhorn" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+                                    <path fill="currentColor" d="M576 240c0-23.63-12.95-44.04-32-55.12V32.01C544 23.26 537.02 0 512 0c-7.12 0-14.19 2.38-19.98 7.02l-85.03 68.03C364.28 109.19 310.66 128 256 128H64c-35.35 0-64 28.65-64 64v96c0 35.35 28.65 64 64 64h33.7c-1.39 10.48-2.18 21.14-2.18 32 0 39.77 9.26 77.35 25.56 110.94 5.19 10.69 16.52 17.06 28.4 17.06h74.28c26.05 0 41.69-29.84 25.9-50.56-16.4-21.52-26.15-48.36-26.15-77.44 0-11.11 1.62-21.79 4.41-32H256c54.66 0 108.28 18.81 150.98 52.95l85.03 68.03a32.023 32.023 0 0 0 19.98 7.02c24.92 0 32-22.78 32-32V295.13C563.05 284.04 576 263.63 576 240zm-96 141.42l-33.05-26.44C392.95 311.78 325.12 288 256 288v-96c69.12 0 136.95-23.78 190.95-66.98L480 98.58v282.84z"></path>
+                                 </svg>
+                                 <!-- <i class="fas fa-bullhorn"></i> Font Awesome fontawesome.com -->
+                              </div>
+                              <!--//icon-holder-->
+                              <div class="content">
+                                 <h4 class="callout-title">SMTP</h4>
+                                 <p>Don't frogot to setUp your SMTP information in Application/.env</p>
+                                 <code>The SMTP is for reset passwords only</code>
+                              </div>
+                              <!--//content-->
+                           </div>
+                           <div class="black">
+                              MAIL_MAILER=smtp<br>
+                              MAIL_HOST=
+                              <change>smtp.example.com</change>
+                              <br>
+                              MAIL_PORT=465<br>
+                              MAIL_USERNAME=
+                              <change>USERNAME</change>
+                              <br>
+                              MAIL_PASSWORD=
+                              <change>PASSWORD</change>
+                              <br>
+                              MAIL_ENCRYPTION=ssl<br>
+                              MAIL_FROM_ADDRESS=<br>
+                           </div>
+                           <div id="step4"  class="section-block">
+                              <h1 class="mt-3">SetUp google captcha :</h1>
+                              <div class="alert alert-info mt-3">
+                                 <img src="assets/images/steps/captcha.png" class="mt-2 img-fluid">
+                              </div>
+                           </div>
+                           <!--//section-block-->
+                        </section>
+                        <!--//doc-section-->
+                     </div>
+                     <!--//content-inner-->
+                  </div>
+                  <!--//doc-content-->
+                  <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                     <div id="doc-nav" class="doc-nav">
+                        <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                           <a class="nav-link scrollto" href="#requirements-section">Requirements</a>
+                           <a class="nav-link scrollto" href="#preparations-section">Preparations</a>
+                           <a class="nav-link scrollto" href="#installation-section">Installation</a>
+                        </nav>
+                        <!--//doc-menu-->
+                     </div>
+                  </div>
+                  <!--//doc-sidebar-->
+               </div>
+               <!--//doc-body-->              
+            </div>
+            <!--//container-->
+         </div>
+         <!--//doc-wrapper-->
+      </div>
+      <!--//page-wrapper-->
+      <footer id="footer" class="footer text-center">
+         <div class="container">
+            <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+            <small class="copyright">
+               Copyright © <script>document.write(new Date().getFullYear())</script> .
+               Filebob All rights reserved.
+            </small>
+         </div>
+         <!--//container-->
+      </footer>
+      <!--//footer-->
+      <!-- Main Javascript -->          
+      <script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
+      <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>    
+      <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>      
+      <script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>                                                             
+      <script type="text/javascript" src="assets/js/main.js"></script>
+   </body>
+</html>
